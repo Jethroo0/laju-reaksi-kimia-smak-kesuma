@@ -1,0 +1,127 @@
+	.besar-font {
+			font-size: 3dvh; /* Ukuran font untuk judul */
+	}
+	.besar-teks {
+			font-size: 16px; /* Ukuran font untuk teks deskripsi */
+	}
+	body {
+		margin: 0; /* Margin untuk body */
+		font-family: 'Montserrat', sans-serif; /* Font family */
+	}
+	.montserrat-bold{
+		font-family: 'montserrat', sans-serif;
+		font-weight: bold;
+	}
+	.montserrat-italic {
+		font-family: 'Montserrat', sans-serif; /* Font family */
+		font-style: italic;
+		padding-top: 10px;
+	}
+	.theme-dark {
+    background-color: #1e2225; /* Warna latar belakang hitam */
+    color: white; /* Warna teks putih */
+    padding: 0px; /* Padding untuk tema gelap */
+    border-radius: 0px; /* Sudut melengkung */
+	}
+	.theme-light {
+	background-color: #e7e5e5; /* Warna latar belakang putih */
+	color: #1a1a1a; /* Warna teks hitam */
+	padding: 10px; /* Padding untuk tema terang */
+	border-radius: 0px; /* Sudut melengkung */
+	}
+	p {
+		font-size: 2dvh; /* Ukuran font untuk teks deskripsi */
+		position: relative;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	h1 {
+		padding: 30px 20px; /* Padding untuk judul */
+		width: device-width;
+		text-transform: uppercase;
+		display: inline;
+	} 
+
+	img {
+		border-radius: 12px; /* Sudut melengkung */
+		width:fit-content;
+		box-shadow: #1a1a1a;
+		margin-bottom: 10px;
+	}
+	h2 {
+		padding: 16px 12px;
+		font-size: 3dvh; /* Ukuran font untuk teks deskripsi */
+		text-decoration: bold;
+		text-transform: uppercase;
+	}
+.container {
+    text-align: center;
+}
+
+.instagram-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(46, 45, 45); /* Warna teks */
+    background-color: #e7e5e5;
+    border: blue;
+    border-radius: 12px;
+    text-decoration: none; /* Menghilangkan garis bawah */
+    transition: background-color 0.3s;
+	padding-top: 12px;
+}
+
+.instagram-button:hover {
+    background-color: #272627; /* Warna saat hover */
+	color: rgb(230, 230, 230); /* Warna teks saat hover */
+	text-decoration-style: bold;
+	box-shadow: 0px 0px 7px rgb(209, 209, 209);
+	transition: 0.4s ease-out;
+	border:#e7e5e5;
+}
+
+.muncul:hover {
+	scale: 1.09;
+	box-shadow: 0px 0px 4px rgb(83, 83, 83),
+				0px 0px 8px rgb(83, 83, 83),
+				0px 0px 12px rgb(83,83,83);
+	transition: 0.32s ease-in-out;
+}
+
+.cara_mengerjakan{
+	box-shadow: 0px 0px 9px #383838;
+}
+li{
+	text-decoration: none;
+	text-transform: none;
+	text-decoration-style: none;
+	font-size: 2dvh;
+}
+
+.heading_refresh {
+	font-size: 4dvh;
+	text-decoration: none;
+	display: inline-flex;
+	background-color: #f8f9fa; /* Warna latar belakang putih */
+	color: #1a1a1a; /* Warna teks hitam */
+	padding: 20px; /* Padding untuk tema terang */
+	
+}
+
+.logo {
+	width: 100px; /* Atur lebar logo sesuai kebutuhan */
+	cursor: pointer; /* Menunjukkan bahwa logo dapat diklik */
+	vertical-align: middle; /* Menjaga logo sejajar dengan teks */
+}
+
+header{
+	margin-bottom: 20px;
+}
+
+.kunjungi{
+	margin-top: 20px;
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
